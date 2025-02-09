@@ -143,12 +143,12 @@ footer a:hover {
 }
 
 .hobby-image {
-    width: 100%;
-    height: 250px;
-    object-fit: contain; /* Ensures the full image is visible */
-    background-color: black; /* Adds a background to fill any gaps */
-    border-radius: 8px;
+    width: 100%; /* Ensures image fills the width of the card */
+    height: 250px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures the image fills the area without black bars */
+    border-radius: 8px; /* Keeps rounded corners consistent */
 }
+
 
 .hobby-card h3 {
     font-size: 22px;

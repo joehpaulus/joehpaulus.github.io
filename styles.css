@@ -143,9 +143,10 @@ footer a:hover {
 }
 
 .hobby-image {
-    width: 100%; /* Ensures it fills the card */
-    height: 200px; /* Set a fixed height for consistency */
-    object-fit: cover; /* Ensures images are cropped to fill the area */
+    width: 100%;
+    height: 250px;
+    object-fit: contain; /* Ensures the full image is visible */
+    background-color: black; /* Adds a background to fill any gaps */
     border-radius: 8px;
 }
 
